@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact me</title>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <style>
+    .nav-bar-size{
+      margin-left: 10px; /* Adjust margin for smaller screens */
+      margin-right: 10px; /* Adjust margin for smaller screens */
+    }
+    .nav-image{
+      width: 45px; /* Reduce size for smaller screens */
+      height: 45px; /* Reduce size for smaller screens */
+      border-radius: 100%;
+    }
+    .shoaib-images {
+      width: 300px; /* Adjust the size as needed for smaller screens */
+      height: 300px; /* Adjust the size as needed for smaller screens */
+      border-radius: 100%;
+    }
+
+    textarea.form-control {
+      height: 200px; /* Reduce height for smaller screens */
+    }
+  </style>
+</head>
+
+<body style="background-color: #fff;">
+
+ <!-- navbar  section -->
+ <section>
+  <!-- navbar  -->
+  <nav class="navbar navbar-expand-lg navbar-light nav-bar-size rounded-4">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">
+        <img class="img-fluid nav-image" src="unnamed.jpg" alt="">
+        <span class="h5 pl-3">Md Shoaib Ahammed</span>
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto p-2">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html"><span class="h5 px-3">Home</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html"><span class="h5 px-3">About Me</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="portfollio.html"><span class="h5 px-3">Portfolio</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link bg-primary" href="contact-me.html"><span class="rounded h5 px-3 text-light ">Contact Me</span></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</section>
+
+
+
+
+<section>
+  <div class="mt-5">
+      <h2 class="text-center">Let's Talk <br> About Your Project</h2>
+  </div>
+</section>
+
+<section class="d-flex justify-content-center mt-5">
+  <div class="row">
+      <div class="col">
+          <input type="text" class="form-control" placeholder="Write your name" aria-label="First name">
+      </div>
+      <div class="col">
+          <input type="text" class="form-control" placeholder="Write your email" aria-label="Last name">
+      </div>
+  </div>
+</section>
+
+<section>
+  <div class="d-flex justify-content-center mt-5">
+      <div class="col-md-6">
+          <div class="mb-3">
+              <label for="exampleFormControlTextarea1" class="form-label">message box</label>
+              <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Write your message" rows="3"></textarea>
+              <div class="d-flex justify-content-end">
+                  <div class="px-3 mt-3">
+                      <button class="btn btn-primary" id="modal-button" type="button">Button</button>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+</section>
+
+<!-- Bootstrap JS (Optional, if you need JS features) -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

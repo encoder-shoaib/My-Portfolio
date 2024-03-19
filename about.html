@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Me</title>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <style>
+
+.nav-bar-size{
+      margin-left: 200px;
+      margin-right: 20px;
+    }
+    .nav-image{
+      width: 55px;
+      height: 55px;
+      border-radius: 100%;
+    }
+    .skill-card{
+        height: 60%;
+        
+    }
+    .border-image {
+  border-style: none;
+  border-width: 0;
+  border-radius: 50%; /* Make the border round */
+  box-shadow: 
+    0 0 0 20px white, /* White border */
+    0 0 0 45px rgba(6, 22, 245, 0.521); /* bg-primary border */
+  }
+    .shoaib-images {
+        width: 400px; /* Adjust the size as needed */
+        height: 400px; /* Adjust the size as needed */
+        border-radius: 100%;
+        
+    }
+    .footer-img{
+  width: 70px; /* Adjust as needed */
+  height: 70px; /* Adjust as needed */
+}
+
+
+    .nav-image {
+      width: 55px;
+      height: 55px;
+      border-radius: 100%;
+    }
+
+    .shoaib-images {
+      width: 100%; /* Make the image responsive */
+      height: auto; /* Maintain aspect ratio */
+      max-width: 400px; /* Limit the maximum width */
+      display: block;
+      margin: auto; /* Center the image */
+    }
+
+    .skill-card {
+      width: 100%; /* Make the card responsive */
+    }
+  </style>
+</head>
+
+<body>
+
+<section>
+  <!-- navbar  -->
+  <nav class="navbar navbar-expand-lg navbar-light nav-bar-size rounded-4">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">
+        <img class="img-fluid nav-image" src="unnamed.jpg" alt="">
+        <span class="h5 pl-3">Md Shoaib Ahammed</span>
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto p-2">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html"><span class="h5 px-3">Home</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html"><span class="h5 px-3">About Me</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="portfollio.html"><span class="h5 px-3">Portfolio</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link bg-primary" href="contact-me.html"><span class="rounded h5 px-3 text-light ">Contact Me</span></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</section>
+
+
+<section>
+    <div class="mt-3">
+        <h1 class="text-center">My Personal <br> Information</h1>
+    </div>
+</section>
+
+<!-- body section  -->
+<div class="container">
+  <div class="row">
+    <div class="col-md-6">
+      <div class="card mx-3 border border-0 py-5">
+        <img src="unnamed.jpg" class="card-img-top shoaib-images border-image " alt=""> 
+      </div>
+    </div>
+    <div class="col-md-6">
+      <div class="card mx-3 skill-card border border-0">
+        <div class="card-body">
+          <div class="card-body">
+            <h3 class="card-title">Md Shoaib Ahammed</h3>
+            <h6 class="card-subtitle mb-2 text-muted mt-5">Web Developer</h6>
+            <p class="card-text mt-3">Hi! I am Md Shoaib Ahammed. I am a student. I am doing my bachelor's degree in Computer Science and Engineering at Daffodil International University.</p>
+            <button class="bg-primary bor rounded h5 py-1 text-light mt-3 border border-primary">Contact Me</button>
+          </div>
+          <!-- Add your skill content here -->
+          <div class="pl-3">
+            <h3 class="card-title pt-2 mb-4">My Skills Are</h3>
+            <p text-align="left">
+                <a href="https://getbootstrap.com" target="_blank" rel="noreferrer" class=" mr-3 mb-5 " >
+                    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg" alt="bootstrap" width="40" height="40"/>
+                </a>
+            
+                <a href="https://www.cprogramming.com/" target="_blank" rel="noreferrer" class="mr-3"mb-5 >
+                    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" alt="c" width="40" height="40"/>
+                </a>
+
+                <!-- Add GitHub icon link here -->
+                <a href="https://github.com" target="_blank" rel="noreferrer" class="mr-3"mb-5 > 
+                    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/github/github-original.svg" alt="github" width="40" height="40"/> 
+                </a>
+            
+                <a href="https://www.figma.com/" target="_blank" rel="noreferrer" class="mr-3"mb-5 >
+                    <img src="https://www.vectorlogo.zone/logos/figma/figma-icon.svg" alt="figma" width="40" height="40"/>
+                </a>
+            
+                <a href="https://git-scm.com/" target="_blank" rel="noreferrer" class="mr-3"mb-5 >
+                    <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/>
+                </a>
+            
+                <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer" class="mr-3"mb-5 >
+                    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/>
+                </a>
+            
+                <a href="https://www.adobe.com/in/products/illustrator.html" target="_blank" rel="noreferrer" class="mr-3"mb-5 >
+                    <img src="https://www.vectorlogo.zone/logos/adobe_illustrator/adobe_illustrator-icon.svg" alt="illustrator" width="40" height="40"/>
+                </a>
+            
+                <a href="https://www.java.com" target="_blank" rel="noreferrer" class="mr-3"mb-5 >
+                    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="java" width="40" height="40"/>
+                </a>
+            
+                <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer" class="mr-3"mb-5 >
+                    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/>
+                </a>
+            
+                <a href="https://nodejs.org" target="_blank" rel="noreferrer" class="mr-3"mb-5 >
+                    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="nodejs" width="40" height="40"/>
+                </a>
+            
+                <a href="https://www.photoshop.com/en" target="_blank" rel="noreferrer" class="mr-3"mb-5 >
+                    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/photoshop/photoshop-line.svg" alt="photoshop" width="40" height="40"/>
+                </a>
+            
+                <a href="https://reactjs.org/" target="_blank" rel="noreferrer" class="mr-3"mb-5 >
+                    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="40" height="40"/>
+                </a>
+            
+                <a href="https://reactnative.dev/" target="_blank" rel="noreferrer" class="mr-3"mb-5 >
+                    <img src="https://reactnative.dev/img/header_logo.svg" alt="reactnative" width="40" height="40"/>
+                </a>
+            
+                <a href="https://tailwindcss.com/" target="_blank" rel="noreferrer" class="mr-3"mb-5 >
+                    <img src="https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg" alt="tailwind" width="40" height="40"/>
+                </a>
+            
+                <a href="https://www.adobe.com/products/xd.html" target="_blank" rel="noreferrer" class="mr-3"mb-5 >
+                    <img src="https://cdn.worldvectorlogo.com/logos/adobe-xd.svg" alt="xd" width="40" height="40"/>
+                </a>
+            
+                <!-- Add Python icon link here -->
+                <a href="https://www.python.org/" target="_blank" rel="noreferrer" class="mr-3"mb-5 > 
+                    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> 
+                </a>
+            </p>                                 
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- footer section -->
+<section class="mt-5 pt-5">
+  <footer class=" text-light py-3 mt-5 pt-5 " style="background-color: #893BFF">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <h5>About Me</h5>
+          <div class="pr-5">
+          <p>Hi! I am Md Shoaib Ahammed. I am a student. I am doing my bachelor's degree in Computer Science and Engineering at Daffodil International University</p>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <h5>Quick Links</h5>
+          <ul class="list-unstyled">
+            <li><a href="#about" style="color: black;">About</a></li>
+            <li><a href="#portfolio"style="color: black;">Portfolio</a></li>
+            <li><a href="#contact"style="color: black;">Contact</a></li>
+          </ul>
+        </div>
+        <div class="col-md-3">
+          <h5>Connect With Me</h5>
+          <ul class="list-unstyled">
+            <li><a href="https://github.com/encoder-shoaib" target="_blank" style="color: black;">GitHub</a></li>
+            <li><a href="https://www.linkedin.com/feed/" target="_blank" style="color: black;">LinkedIn</a></li>
+            <li><a href="https://mail.google.com/mail/u/0/#inbox?compose=new" style="color: black;">Email</a></li>
+          </ul>
+        </div>
+      </div>
+      <hr class="mt-4 mb-3">
+      <div class="text-center">
+        <p>&copy; </p>
+        <p>Md Shoaib<i class="fas fa-heart text-danger"></i> Ahammed</p>
+      </div>
+    </div>
+  </footer>
+</section>
+
+<!-- Bootstrap JS (Optional, if you need JS features) -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
